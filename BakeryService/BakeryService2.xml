@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BakeryService</name>
+    </assembly>
+    <members>
+        <member name="M:BakeryService.Controllers.ProductController.Get">
+            <summary>
+            Henter alle produkter
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BakeryService.Controllers.ProductController.Post(BakeryService.Model.Product)">
+            <summary>
+            
+            </summary>
+            <example>Gem et produkt</example>
+            <param name="product"></param>
+        </member>
+        <member name="P:BakeryService.Model.Product.ProductName">
+            <summary>
+            Rundstykke, kanelsnegl mm.
+            </summary>
+            <example>Rundstykke</example>
+        </member>
+        <member name="P:BakeryService.Model.Product.ProductDescription">
+            <summary>
+            Lækkert bagværk. Bagt med godt råvarer af din bagermester 
+            </summary>
+        </member>
+        <member name="P:BakeryService.Model.Product.Price">
+            <summary>
+            15.75, 5.50 etc.
+            </summary>
+        </member>
+        <member name="P:BakeryService.Model.Product.Icon">
+            <summary>
+            Dette er et ikon/billede i base64stringformat.
+            </summary>
+        </member>
+    </members>
+</doc>
